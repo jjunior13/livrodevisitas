@@ -1,1 +1,1 @@
-Sistema de Livro de Visitas simples em PHP , HTML
+Sistema de Livro de Visitas simples em PHP em um unico arquivo index.php e o .sql

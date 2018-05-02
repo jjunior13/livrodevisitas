@@ -78,7 +78,7 @@
 <!-- conexao ao BD mysql -->
 					<?php
 				try { 
-				$pdo = new PDO("mysql:dbname=projeto_coment;host=projeto_coment.mysql.dbaas.com.br", "projeto_coment", "ledzep13@@##");
+				$pdo = new PDO("mysql:dbname=database;host=localhost", "root", "senha");
 				} catch(PDOException $e) {
 				echo "ERRO: ".$e->getMessage();
 				exit;
